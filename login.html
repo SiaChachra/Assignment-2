@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Container for the login form -->
+     <div class="container">
+        <div class="form-container">
+            <h2>Sign In</h2>
+            <form action="signin.php" method="POST">
+                <label for="signin-username">Username:</label>
+                <input type="text" id="signin-username" name="signin-username" required><br><br>
+
+                <label for="signin-password">Password:</label>
+                <input type="password" id="signin-password" name="signin-password" required><br><br>
+
+                <button type="submit">Sign In</button>
+            </form>
+        </div> 
+
+        <!-- Container for the sign-up form -->
+        <div class="form-container"> 
+            <h2>Sign Up</h2>
+            <form action="signup.php" method="POST">
+                <label for="signup-username">Username:</label>
+                <input type="text" id="signup-username" name="signup-username" required><br><br>
+
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="signup-password" required><br><br>
+
+
+
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+                <button type="submit">Sign Up</button>
+            </form> 
+        </div>
+    </div>
+</body>
+</html>
